@@ -4,6 +4,20 @@
   <artifactId>HelloWorldJSP</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>INBASDLP05389-releases</name>
+        <url>http://localhost:8040/artifactory/sample-maven</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>INBASDLP05389-snapshots</name>
+        <url>http://localhost:8040/artifactory/sample-maven</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
