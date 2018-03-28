@@ -7,6 +7,6 @@
 <title>Hello World - JSP tutorial</title>
 </head>
 <body>
-	<%= "Hello d-===dfd!" %>
+	<%= "Hello d-==dfd!" %>
 </body>
 </html>
